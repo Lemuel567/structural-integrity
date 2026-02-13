@@ -27,10 +27,10 @@ public class question3 {
             }
 
             else{
-                System.out.println("pressure can only be positive");
+                System.out.println("pressure can only be greater than 0");
             }
         }
-            System.out.println("Material failure at cycle " + cycleCount);
+            System.out.println("Material failed at cycle " + cycleCount);
             System.out.println("The final integrity level is: " + structuralIntegrity);
 
 
