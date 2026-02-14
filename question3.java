@@ -27,7 +27,7 @@ public class question3 {
             }
 
             else{
-                System.out.println("pressure can only be greater than 0. Enter a poisitive number.");
+                System.out.println("pressure can not be less than or equal to 0. Enter a positive number.");
             }
         }
             System.out.println("Material failed at cycle " + cycleCount);
