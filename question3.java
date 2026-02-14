@@ -10,7 +10,7 @@ public class question3 {
         final double FAILURE_THRESHOLD = 15.0;
 
         while(structuralIntegrity > FAILURE_THRESHOLD) {
-            System.out.print("Enter pressure force for Cycle " + (cycleCount + 1));
+            System.out.print("Enter pressure for Cycle " + (cycleCount + 1));
             double pressure = input.nextDouble();
 
 
@@ -31,7 +31,7 @@ public class question3 {
             }
         }
             System.out.println("Material failed at cycle " + cycleCount);
-            System.out.println("The final integrity level is: " + structuralIntegrity);
+            System.out.println("The finaal integrity level is: " + structuralIntegrity);
 
 
 
