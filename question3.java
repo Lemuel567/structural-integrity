@@ -27,12 +27,12 @@ public class question3 {
             }
 
             else{
-                System.out.println("pressure can only be negative.");
+                System.out.println("pressure can only be positive.");
                 System.out.println("Enter a positive number");
             }
         }
             System.out.println("Material failed at cycle " + cycleCount);
-            System.out.println("The finaal integrity level is: " + structuralIntegrity);
+            System.out.println("The final integrity level is: " + structuralIntegrity);
 
 
 
